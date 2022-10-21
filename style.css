@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
 body{
    margin: 0;
 }
@@ -95,6 +103,7 @@ a{
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
+    padding: 50px 100px;
 
 }
 
@@ -104,14 +113,16 @@ a{
 
 }
 
+
 .section-start .part{
     display: inline-flex;
     
 }
 
 .section-start .part .ora{
-    font-size: 24px;
+    font-size: 30px;
     color: #F58A07;
+    line-height: 50px;
 }
 
 .col3 img{
@@ -137,28 +148,43 @@ a{
     justify-content: space-between;
 }
 
+.section-sol .blog2{
+    padding: 10px;
+}
+.section-start .second::after{
+    content: '';
+    position: absolute;
+    inset: 0 75% 0 0;
+    background-color: #F58A07;
+    border-radius: 25px 0 0 25px;
+    mix-blend-mode: multiply;
+    border-radius: 25px 0 0 25px;
+}
 
+.mid-img1{
+    position: relative;
+}
 
 
 .mid-img1 img{
-    border-radius: 25px;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
-    background-color: #F58A07;
-    background-blend-mode: multiply;
+   
 }
 
 .section-strategy{
     background-color: #DCEAF5;
     border-radius: 20px;
+    padding: 50px 100px;
+    
   
 }
 
 
 
 .section-strategy img{
-    width: 300px;
-    height: 300px;
+
     float: right;
 
 }
@@ -175,6 +201,16 @@ a{
     display: inline-block;
    
     
+}
+
+.section-or .mid-cont {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-or .content-or{
+    color: white;
 }
 
 .section-or img{
@@ -196,6 +232,10 @@ a{
 
 }
 
+.section-fin{
+    padding: 50px 100px;
+}
+
 .section-fin img{
     width: 400px;
 }
@@ -204,8 +244,13 @@ a{
 
 }
 
+.section-news{
+    padding: 50px 100px;
+}
+
 .section-news .row .col3{
     background-color: white;
+    
 }
 
 footer{
@@ -236,4 +281,8 @@ footer .logo44 .fa-twitter{
 
 footer .logo44 .fa-instagram{
     color: white;
+}
+
+.row .blog1 img{
+    width: 100%;
 }
