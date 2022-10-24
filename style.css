@@ -285,3 +285,25 @@ footer .logo44 .fa-instagram{
 .row .blog1 img{
     width: 100%;
 }
+
+.foot {
+    color: white;
+}
+
+.foot b{
+    color: white;
+}
+
+.foot .company2 li{
+   list-style: none;
+}
+
+.foot .logo44 .logo{
+    font-size: 2rem;
+}
+
+.company3 .containerf {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
